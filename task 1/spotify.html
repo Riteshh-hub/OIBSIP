@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spotify</title>
+  <link rel="stylesheet" href="spotify.css" />
+
+  <!-- font awesome sathi link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="icon" type="image/png" href="assets/spotifylogo.png" />
+
+</head>
+<body>
+  <div class="main">
+    <!-- side bar -->
+    <div class="sidebar">
+      <div class="navbar">
+        <div class="navoption">
+          <i class="fa-solid fa-house"></i>
+          <a href="#">Home</a>
+        </div>
+        <div class="navoption">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <a href="#">Search</a>
+        </div>
+      </div>
+
+      <div class="library">
+        <div class="options">
+          <div class="lib-options">
+            <img src="assets/library_icon.png" />
+            <a href="#">Your Library</a>
+          </div>
+          <div class="icons">
+            <i class="fa-solid fa-plus"></i>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <p class="box1">Create your first playlist</p>
+          <p class="box2">It's easy, we'll help you</p>
+          <button class="badge">Create Playlist</button>
+        </div>
+        <div class="box">
+          <p class="box1">Let's find some podcasts to follow</p>
+          <p class="box2">We'll keep you updated on new episodes</p>
+          <button class="badge">Browse Podcasts</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- main content -->
+    <div class="maincontent">
+      <div class="sticky-nav">
+        <div class="nav-icons">
+          <i class="fa-solid fa-chevron-left"></i>
+          <i class="fa-solid fa-chevron-right hide"></i>
+        </div>
+        <div class="stickynavoptions">
+          <button class="badge navitems hide">Explore Premium</button>
+          <button class="badge navitems dark"><i class="fa-regular fa-circle-down"></i> Install App</button>
+          <i class="fa-regular fa-user navitems"></i>
+        </div>
+      </div>
+
+      <h2>Recently Played</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img src="assets/card1img.jpeg" class="card-image" />
+          <p class="card-title">Top 50 - Global</p>
+          <p class="card-info">Your daily update of the most played tracks right now.</p>
+        </div>
+      </div>
+
+      <h2>Trending now near you</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img src="assets/card2img.jpeg" class="card-image" />
+          <p class="card-title">Top Hits India</p>
+          <p class="card-info">Most played songs in India</p>
+        </div>
+        <div class="card">
+          <img src="assets/card3img.jpeg" class="card-image" />
+          <p class="card-title">90's Era</p>
+          <p class="card-info">Most played 90's songs in India</p>
+        </div>
+        <div class="card">
+          <img src="assets/card4img.jpeg" class="card-image" />
+          <p class="card-title">Tollywood Hits</p>
+          <p class="card-info">Most played songs in India</p>
+        </div>
+        <div class="card">
+          <img src="assets/card122mg.jpeg" class="card-image" />
+          <p class="card-title">Randy Zomora </p>
+          <p class="card-info">Randy Zomora hits</p>
+        </div>
+        <div class="card">
+          <img src="assets/rrr122mg.jpeg" class="card-image" />
+          <p class="card-title">RAP Songs</p>
+          <p class="card-info">Most played songs in world</p>
+        </div>
+
+         
+      </div>
+
+      <h2>Featured Charts</h2>
+      <div class="cards-container">
+        <div class="card">
+          <img src="assets/card1img.jpeg" class="card-image" />
+          <p class="card-title">Viral 50 - Global</p>
+          <p class="card-info">What's trending around the world</p>
+        </div>
+
+        <div class="card">
+          <img src="assets/card5img.jpeg" class="card-image" />
+          <p class="card-title">Top Global Songs</p>
+          <p class="card-info">What are the top global hits</p>
+        </div>
+
+         <div class="card">
+          <img src="assets/card6img.jpeg" class="card-image" />
+          <p class="card-title">Viral top India - Songs</p>
+          <p class="card-info">Trending around the India..</p>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="footer">
+        <div class="line"></div>
+
+        <!-- Footer Section Start -->
+        <div class="footer-section">
+          <div class="footer-column">
+            <h4>Company</h4>
+            <a href="#">About</a>
+            <a href="#">Jobs</a>
+            <a href="#">For the Record</a>
+          </div>
+          <div class="footer-column">
+            <h4>Communities</h4>
+            <a href="#">For Artists</a>
+            <a href="#">Developers</a>
+            <a href="#">Advertising</a>
+            <a href="#">Investors</a>
+            <a href="#">Vendors</a>
+          </div>
+          <div class="footer-column">
+            <h4>Useful links</h4>
+            <a href="#">Support</a>
+            <a href="#">Free Mobile App</a>
+          </div>
+          <div class="footer-column">
+            <h4>Social</h4>
+            <div class="icons">
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="footer-bottom">
+          &copy; 2025 Spotify Clone • Powered by your CSS ✨
+        </div>
+        <!-- Footer Section End -->
+      </div>
+    </div>
+
+    <!-- 🎵 music-player down bar -->
+    <div class="music-player">
+      <div class="album">
+        <img src="assets/rap3pimg.jpeg" alt="Album Image" />
+        <div>
+          <p style="font-size: 14px; font-weight: bold;">Daylight</p>
+          <p style="font-size: 12px; color: grey;">David Kushner</p>
+        </div>
+      </div>
+
+      <div class="player">
+        <div class="player-controls">
+          
+          <img src="assets/player_icon2.png" class="player-control-icon" />
+          <img src="assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;" />
+          <img src="assets/player_icon4.png" class="player-control-icon" />
+          <img src="assets/player_icon5.png" class="player-control-icon" />
+        </div>
+        <div class="playback-bar">
+          <span class="curr-time">0:00</span>
+          <input type="range" min="0" max="100" class="progress-bar" />
+          <span class="tot-time">3:45</span>
+        </div>
+      </div>
+
+      <div class="controls">
+        <i class="fa-solid fa-microphone"></i>
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-laptop"></i>
+        <input type="range" class="volume-bar" />
+        <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

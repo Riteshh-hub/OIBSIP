@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Font Awesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="portifolio.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">My Portfolio!</a>
+        <ul>
+    <li><a href="#" class="active">Home</a></li>
+    <li><a href="#" id="about-link">About</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#" id="contact-link">Contact</a></li>
+</ul>
+
+    </div>
+    <div class="bars-animation"> <!--home page lines animation  6,5,4... karan first la jast vel animation nntr la halu halu-->
+        <div class="bar" style="--i:6;"></div>
+         <div class="bar"style="--i:5;"></div>
+          <div class="bar"style="--i:4;"></div>
+           <div class="bar"style="--i:3;"></div>
+            <div class="bar"style="--i:2;"></div>
+             <div class="bar"style="--i:1;"></div>
+    </div>
+
+    <section class="home">
+        <div class="home-info">  <!--home page-->
+            <h1>Ritesh Vadve</h1>
+            <br>
+            <h3 > I'm
+                <span style="--i:3;" data-text="Web Dev"> Web Dev</span>
+                <span style="--i:2;" data-text="Intern at"> Intern at</span>
+                <span style="--i:1;" data-text="Oasis Infobyte"> Oasis Infobyte</span>
+            </h3>
+            <p>My self Ritesh Vadve, a passionate Computer Science student with a strong interest in web development and technology. I enjoy building clean, creative, and user-focused websites. Always learning, always evolving — ready to take on real-world challenges and grow as a developer.....</p>
+
+            <div class="btn-sec"> <!--button section sathi div-->
+               <a href="Ritesh_Vadve_Styled_Web_Development_Resume.pdf" class="btn" download>Download CV</a>
+
+
+
+                <div class="sci"> <!--social meadia sathi-->
+                    <a href="#"> <i class="fab fa-linkedin" style="color: #f4fbf9;"></i></a>
+                    <a href="#"> <i class="fab fa-github" style="color: #f4fbf9;"></i></a>
+                    <a href="#"> <i class="fab fa-twitter" style="color: #f4fbf9;"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img"><!--photo sathi sathi-->
+            <div class="img-box">
+                <div class="img-item"><!--background animation sathi-->
+                    <img src="WhatsApp Image 2025-08-05 at 9.07.01 PM.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== Skills Section ===== -->
+<section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">React</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">MongoDB</div>
+        <div class="skill">Git & GitHub</div>
+        <div class="skill">Responsive Design</div>
+        <div class="skill">C</div>
+        <div class="skill">C++</div>
+        <div class="skill">DBMS</div>
+        <br>
+
+        
+    </div>
+</section>
+
+<!-- ===== Contact Section ===== -->
+<section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>You can reach out to me via email or my social platforms.</p>
+    <p>Contact No: 9834379032</p>
+    <p>Email id : riteshvadve60@gmail.com</p>
+    <p class="11">linkedin : <a href="https://www.linkedin.com/in/ritesh-vadve-56009727b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Ritesh</a></p>
+
+    
+    
+</section>
+
+
+<script>
+    // When "About" is clicked → scroll to Skills section
+    document.getElementById("about-link").addEventListener("click", function(e) {
+        e.preventDefault(); // Prevent the default link jump
+        document.getElementById("skills").scrollIntoView({ behavior: "smooth" });
+    });
+
+    // When "Contact" is clicked → scroll to Contact section
+    document.getElementById("contact-link").addEventListener("click", function(e) {
+        e.preventDefault(); // Prevent the default link jump
+        document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+    });
+</script>
+
+
+</body>
+</html>
